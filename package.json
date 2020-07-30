@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "Node.js bindings for SDL 2",
   "main": "lib/index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "start": "node ."
+  },
   "repository": "git@github.com:joe-damore/sdl2-node.git",
   "author": "Joe D'Amore <joe@joedamore.me>",
   "license": "MIT",
